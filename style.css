@@ -1,0 +1,62 @@
+/* ===== Shared styles for all pages ===== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Requirement: H1 elements centered on every page */
+h1 {
+  text-align: center;
+}
+
+/* Requirement: images centered on every page */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  height: auto;
+}
+
+/* A few small extras to make the pages readable */
+ul {
+  width: 250px;
+  margin: 20px auto;          /* center the link list */
+  font-size: 1.2em;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ===== Per-page colors =====
+   Each page uses a different text color AND a different
+   background color, as required. The <body> of each file
+   carries the matching class. */
+
+/* index.html */
+.index {
+  background-color: #e8f4f8;   /* light blue */
+  color: #14323a;              /* dark teal text */
+}
+
+/* joke1.html */
+.joke1 {
+  background-color: #fff3cd;   /* pale yellow */
+  color: #7a4f01;              /* brown text */
+}
+
+/* joke2.html */
+.joke2 {
+  background-color: #ece2f5;   /* lavender */
+  color: #3d1a5b;              /* deep purple text */
+}
+
+/* joke3.html */
+.joke3 {
+  background-color: #d8f0dc;   /* mint green */
+  color: #14532d;              /* dark green text */
+}

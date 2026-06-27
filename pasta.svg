@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+  <rect width="300" height="240" fill="#eefcf0"/>
+  <!-- spaghetti pile -->
+  <g stroke="#f4c430" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M70 150 q20 -60 80 -55 q60 5 80 55"/>
+    <path d="M80 150 q30 -45 70 -45 q40 0 70 45"/>
+    <path d="M95 150 q15 -35 55 -35 q45 0 55 38"/>
+    <path d="M110 148 q25 -25 40 -25 q35 0 45 28"/>
+  </g>
+  <!-- meatballs -->
+  <circle cx="120" cy="135" r="14" fill="#8b4513"/>
+  <circle cx="170" cy="142" r="14" fill="#8b4513"/>
+  <circle cx="148" cy="120" r="13" fill="#8b4513"/>
+  <!-- bowl -->
+  <path d="M55 150 h190 a95 60 0 0 1 -190 0 z" fill="#ffffff" stroke="#2e7d32" stroke-width="4"/>
+  <ellipse cx="150" cy="150" rx="95" ry="16" fill="#ffffff" stroke="#2e7d32" stroke-width="4"/>
+</svg>
